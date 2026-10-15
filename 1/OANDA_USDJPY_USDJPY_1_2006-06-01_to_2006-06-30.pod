@@ -1,0 +1,113 @@
+{
+  "pod_version": "4.0",
+  "instrument": "USD_JPY",
+  "granularity": "M1",
+  "chunk_start": "2006-06-01",
+  "chunk_end": "2006-06-30",
+  "parquet_file": "OANDA_USDJPY_USDJPY_1_2006-06-01_to_2006-06-30.parquet",
+  "data_file": "OANDA_USDJPY_USDJPY_1_2006-06-01_to_2006-06-30.parquet",
+  "row_count": 31390,
+  "first_candle": {
+    "time": 1149120000,
+    "Time": "2006-06-01T00:00:00.000000000Z",
+    "open": 112.495,
+    "high": 112.53,
+    "low": 112.49,
+    "close": 112.53,
+    "volume": 21
+  },
+  "last_candle": {
+    "time": 1151701140,
+    "Time": "2006-06-30T20:59:00.000000000Z",
+    "open": 114.451,
+    "high": 114.46,
+    "low": 114.425,
+    "close": 114.44,
+    "volume": 11
+  },
+  "csv_file": "OANDA_USDJPY_USDJPY_1_2006-06-01_to_2006-06-30.parquet",
+  "csv_row_count": 31390,
+  "csv_first_candle": {
+    "time": 1149120000,
+    "Time": "2006-06-01T00:00:00.000000000Z",
+    "open": 112.495,
+    "high": 112.53,
+    "low": 112.49,
+    "close": 112.53,
+    "volume": 21
+  },
+  "csv_last_candle": {
+    "time": 1151701140,
+    "Time": "2006-06-30T20:59:00.000000000Z",
+    "open": 114.451,
+    "high": 114.46,
+    "low": 114.425,
+    "close": 114.44,
+    "volume": 11
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T22:09:45.000000000Z",
+  "generated_at": "2026-10-15T22:09:45.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2572,
+    "chunk_api_blocks": 9,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2006-05-31T23:38:00Z",
+        "to": "2006-06-04T10:58:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-06-04T10:58:00Z",
+        "to": "2006-06-07T22:18:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-06-07T22:18:00Z",
+        "to": "2006-06-11T09:38:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-06-11T09:38:00Z",
+        "to": "2006-06-14T20:58:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-06-14T20:58:00Z",
+        "to": "2006-06-18T08:18:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-06-18T08:18:00Z",
+        "to": "2006-06-21T19:38:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-06-21T19:38:00Z",
+        "to": "2006-06-25T06:58:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-06-25T06:58:00Z",
+        "to": "2006-06-28T18:18:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2006-06-28T18:18:00Z",
+        "to": "2006-07-02T05:38:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

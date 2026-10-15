@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "USD_JPY",
+  "granularity": "M1",
+  "chunk_start": "2022-08-01",
+  "chunk_end": "2022-08-31",
+  "parquet_file": "OANDA_USDJPY_USDJPY_1_2022-08-01_to_2022-08-31.parquet",
+  "data_file": "OANDA_USDJPY_USDJPY_1_2022-08-01_to_2022-08-31.parquet",
+  "row_count": 32627,
+  "first_candle": {
+    "time": 1659312000,
+    "Time": "2022-08-01T00:00:00.000000000Z",
+    "open": 133.373,
+    "high": 133.414,
+    "low": 133.329,
+    "close": 133.39,
+    "volume": 165
+  },
+  "last_candle": {
+    "time": 1661990340,
+    "Time": "2022-08-31T23:59:00.000000000Z",
+    "open": 139.308,
+    "high": 139.335,
+    "low": 139.298,
+    "close": 139.335,
+    "volume": 176
+  },
+  "csv_file": "OANDA_USDJPY_USDJPY_1_2022-08-01_to_2022-08-31.parquet",
+  "csv_row_count": 32627,
+  "csv_first_candle": {
+    "time": 1659312000,
+    "Time": "2022-08-01T00:00:00.000000000Z",
+    "open": 133.373,
+    "high": 133.414,
+    "low": 133.329,
+    "close": 133.39,
+    "volume": 165
+  },
+  "csv_last_candle": {
+    "time": 1661990340,
+    "Time": "2022-08-31T23:59:00.000000000Z",
+    "open": 139.308,
+    "high": 139.335,
+    "low": 139.298,
+    "close": 139.335,
+    "volume": 176
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T22:10:52.000000000Z",
+  "generated_at": "2026-10-15T22:10:52.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2572,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2022-07-29T18:18:00Z",
+        "to": "2022-08-02T05:38:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-08-02T05:38:00Z",
+        "to": "2022-08-05T16:58:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-08-05T16:58:00Z",
+        "to": "2022-08-09T04:18:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-08-09T04:18:00Z",
+        "to": "2022-08-12T15:38:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-08-12T15:38:00Z",
+        "to": "2022-08-16T02:58:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-08-16T02:58:00Z",
+        "to": "2022-08-19T14:18:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-08-19T14:18:00Z",
+        "to": "2022-08-23T01:38:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-08-23T01:38:00Z",
+        "to": "2022-08-26T12:58:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-08-26T12:58:00Z",
+        "to": "2022-08-30T00:18:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2022-08-30T00:18:00Z",
+        "to": "2022-09-02T11:38:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
