@@ -6,7 +6,7 @@
   "chunk_end": "2026-10-31",
   "parquet_file": "OANDA_USDJPY_USDJPY_1_2026-10-01_to_2026-10-31.parquet",
   "data_file": "OANDA_USDJPY_USDJPY_1_2026-10-01_to_2026-10-31.parquet",
-  "row_count": 19891,
+  "row_count": 19923,
   "first_candle": {
     "time": 1790812800,
     "Time": "2026-10-01T00:00:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 545
   },
   "last_candle": {
-    "time": 1792534560,
-    "Time": "2026-10-20T22:16:00.000000000Z",
-    "open": 158.273,
-    "high": 158.273,
-    "low": 158.264,
-    "close": 158.271,
-    "volume": 58
+    "time": 1792536480,
+    "Time": "2026-10-20T22:48:00.000000000Z",
+    "open": 158.28,
+    "high": 158.28,
+    "low": 158.276,
+    "close": 158.277,
+    "volume": 36
   },
   "csv_file": "OANDA_USDJPY_USDJPY_1_2026-10-01_to_2026-10-31.parquet",
-  "csv_row_count": 19891,
+  "csv_row_count": 19923,
   "csv_first_candle": {
     "time": 1790812800,
     "Time": "2026-10-01T00:00:00.000000000Z",
@@ -37,17 +37,17 @@
     "volume": 545
   },
   "csv_last_candle": {
-    "time": 1792534560,
-    "Time": "2026-10-20T22:16:00.000000000Z",
-    "open": 158.273,
-    "high": 158.273,
-    "low": 158.264,
-    "close": 158.271,
-    "volume": 58
+    "time": 1792536480,
+    "Time": "2026-10-20T22:48:00.000000000Z",
+    "open": 158.28,
+    "high": 158.28,
+    "low": 158.276,
+    "close": 158.277,
+    "volume": 36
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-10-20T22:17:10.000000000Z",
-  "generated_at": "2026-10-20T22:17:10.000000000Z",
+  "verified_at": "2026-10-20T22:49:38.000000000Z",
+  "generated_at": "2026-10-20T22:49:38.000000000Z",
   "download_request": {
     "total_api_blocks_in_run": 1,
     "chunk_api_blocks": 1,
@@ -55,8 +55,8 @@
     "permanent_error_details": [],
     "all_block_outcomes": [
       {
-        "from": "2026-10-20T21:58:00Z",
-        "to": "2026-10-20T22:17:00Z",
+        "from": "2026-10-20T22:11:00Z",
+        "to": "2026-10-20T22:49:00Z",
         "code": 200,
         "msg": "OK"
       }
